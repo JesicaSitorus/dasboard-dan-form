@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+<body style="color: white; background-color: #1d2630">
 <body>
     <header>
         <input type="checkbox" name="" id="chk1">
@@ -78,6 +79,7 @@
                 <label>Bola Voli</label><br>
                 <label>Bola Kaki</label>
             </div>
+           <a href="index1.php?modul=product">PRODUCT</a>
             <?php
         }
         if($pages == "furnitur"){
@@ -88,6 +90,7 @@
                 <label>Meja</label><br>
                 <label>Meja Belajar</label>
             </div>
+            <a href="index1.php?modul=product">PRODUCT</a>
             <?php
         }
         if($pages == "elektronik"){
@@ -98,6 +101,7 @@
                 <label>Mesin Cuci</label><br>
                 <label>Kulkas</label>
             </div>
+            <a href="index1.php?modul=product">PRODUCT</a>
             <?php
         }
         if($pages == "blog"){
@@ -113,19 +117,6 @@
             <?php
         }
         if($pages == "contact"){
-            ?>
-            <div id="content-contact">
-                <h1>Title Contact</h1><br>
-                <p>Selamat datang untuk kamu,semoga betah disini  ya <br>
-                saya jesica anastasya sitorus <br>
-                aku suka makan bakso aku suka makan mie<br> 
-                aku suka kamu aku suka semuanya loch
-                </p>
-                <a href="index1.php?modul=aboutme">Isi Data Anda di sini!!</a>
-            </div>
-            <?php
-        }
-        if($pages == "aboutme"){
             ?>
             <div class="container mt-5">
                 <div class="text-center">
